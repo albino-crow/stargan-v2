@@ -301,7 +301,6 @@ def build_model(args):
     mapping_network = nn.DataParallel(
         MappingNetwork(args.latent_dim, args.style_dim, args.num_domains)
     )
-    print(args.img_size, args.style_dim, args.num_domains)
     style_encoder = nn.DataParallel(
         StyleEncoder(args.img_size, args.style_dim, args.num_domains)
     )
