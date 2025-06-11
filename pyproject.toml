@@ -3,7 +3,7 @@ name = "stargan-v2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">= 3.13.3"
+requires-python = ">= 3.12"
 dependencies = [
      "colorama==0.4.6",
     "ffmpeg-python==0.2.0",
@@ -24,10 +24,10 @@ dependencies = [
     "scikit-image==0.25.2",
     "scipy==1.15.3",
     "setuptools==80.9.0",
-    "sympy==1.14.0",
+    "sympy==1.13.1",
     "tifffile==2025.6.1",
-    "torch==2.7.1",
-    "torchvision==0.22.1",
+    "torch==2.5.1",
+    "torchvision==0.20.1",
     "tqdm==4.67.1",
     "typing-extensions==4.14.0",
     "gdown==4.7.3",
